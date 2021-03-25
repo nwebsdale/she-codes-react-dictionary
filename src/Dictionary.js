@@ -1,13 +1,14 @@
 import axios from "axios";
 import React, { useState } from "react";
 import "./Dictionary.css";
+import Result from "./Result.js";
 
 export default function Dictionary() {
   let [keyword, setKeyword] = useState("");
+  let [result, setResult] = useState(null);
 
   function handleResponse(response) {
-    console.log(response.data[0]);
-    alert(response);
+    setResult(response.data[0]);
   }
 
   function search(event) {
@@ -21,7 +22,7 @@ export default function Dictionary() {
   }
 
   return (
-    <div className="Dictionary row">
+    <div className="Dictionary">
       <form className="form-inline" onSubmit={search}>
         <input
           className="form-control col-10"
@@ -30,6 +31,7 @@ export default function Dictionary() {
           placeholder="What are you looking for?"
         ></input>
       </form>
+      <Result searchResult={result} />
     </div>
   );
 }
