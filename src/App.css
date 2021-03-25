@@ -1,0 +1,15 @@
+.App .container {
+  background-color: bisque;
+  border-radius: 4px;
+  margin: 10px;
+  padding: 20px;
+}
+
+.App .header h1 {
+  color: red;
+  text-align: center;
+}
+
+.App .header .logo {
+  max-width: 200px;
+}
