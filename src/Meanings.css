@@ -1,1 +1,11 @@
+.Meaning h3 {
+  color: gray;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
 
+.Meaning p {
+  color: gray;
+  font-size: 15px;
+}

@@ -1,0 +1,15 @@
+.Synonyms strong {
+  color: gray;
+  font-size: 15px;
+}
+
+.Synonyms li {
+  display: inline;
+  margin-right: 15px;
+  color: gray;
+  font-size: 15px;
+}
+
+.Synonyms ul {
+  padding: 0;
+}
