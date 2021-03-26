@@ -1,4 +1,3 @@
-// import logo from "./logo.png";
 import "./App.css";
 import Dictionary from "./Dictionary.js";
 
@@ -12,7 +11,7 @@ function App() {
         <main>
           <Dictionary />
         </main>
-        <footer>Coded by me :)</footer>
+        {/* <footer>Coded by me :)</footer> */}
       </div>
     </div>
   );

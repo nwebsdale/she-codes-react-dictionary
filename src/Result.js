@@ -3,18 +3,21 @@ import "./Result.css";
 import Meaning from "./Meaning.js";
 
 export default function Result(props) {
-  console.log(props.searchResult);
   if (props.searchResult) {
     return (
       <div className="Result">
-        <h2>{props.searchResult.word}</h2>
-        {props.searchResult.meanings.map(function (meaning, index) {
-          return (
-            <div key={index}>
-              <Meaning meaning={meaning} />
-            </div>
-          );
-        })}
+        <div className="row word">
+          <h2>{props.searchResult.word}</h2>
+        </div>
+        <div className="row result-info">
+          {props.searchResult.meanings.map(function (meaning, index) {
+            return (
+              <div key={index}>
+                <Meaning meaning={meaning} />
+              </div>
+            );
+          })}
+        </div>
       </div>
     );
   } else {

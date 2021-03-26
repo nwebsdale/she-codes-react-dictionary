@@ -1,0 +1,32 @@
+.Result h2 {
+  color: red;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.Result .info {
+  display: block;
+  margin: 30px auto 0;
+  max-width: 600px;
+}
+
+.Result .meanings {
+  border: 1px solid rgba(175, 174, 174, 0.5);
+  border-radius: 4px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  height: 40px;
+  margin: 10px 0px 0px 42px;
+  max-width: 600px;
+  padding: 4px;
+}
+
+.Result .word {
+  border: 1px solid rgba(175, 174, 174, 0.5);
+  border-radius: 4px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  display: block;
+  height: 40px;
+  margin: 30px auto 0;
+  max-width: 600px;
+  padding: 4px;
+}

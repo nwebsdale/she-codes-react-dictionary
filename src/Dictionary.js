@@ -25,7 +25,7 @@ export default function Dictionary() {
     <div className="Dictionary">
       <form className="form-inline" onSubmit={search}>
         <input
-          className="form-control col-10"
+          className="form-control search-bar"
           onChange={handleKeywordSearch}
           type="search"
           placeholder="What are you looking for?"
