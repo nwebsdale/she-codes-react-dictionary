@@ -9,7 +9,7 @@ function App() {
           <h1>The Online Dictionary</h1>
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="Dictionary" />
         </main>
         {/* <footer>Coded by me :)</footer> */}
       </div>
