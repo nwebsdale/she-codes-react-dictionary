@@ -18,15 +18,6 @@
   margin: 0 auto 5px auto;
 }
 
-/* .Dictionary section.Photos {
-  background-color: white;
-  border: 1px solid rgba(175, 174, 174, 0.1);
-  border-radius: 5px;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
-  /* padding: 5px;
-  margin: 0 auto 10px auto; */
-/* } */
-
 .Dictionary section.word {
   background-color: white;
   border: 1px solid rgba(175, 174, 174, 0.1);
@@ -35,4 +26,16 @@
   /* padding: 5px; */
   max-width: 600px;
   margin: 0 auto 10px auto;
+}
+
+.Dictionary a {
+  font-size: 10px;
+  margin: 0px 5px;
+}
+
+.Dictionary .link {
+  color: gray;
+  font-size: 10px;
+  padding-left: 9px;
+  text-align: center;
 }

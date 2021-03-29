@@ -23,7 +23,7 @@ export default function Dictionary(props) {
 
     const pexelsApiKey =
       "563492ad6f9170000100000137756aa7fbef493998435cb7d6326099";
-    let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=4`;
+    let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=3`;
     let headers = { Authorization: `Bearer ${pexelsApiKey}` };
     axios.get(pexelsApiUrl, { headers: headers }).then(handlePexelsResponse);
   }
@@ -55,6 +55,16 @@ export default function Dictionary(props) {
           </form>
         </section>
         <Result searchResult={result} photos={photos} />
+        <p className="link">
+          <a
+            href="https://github.com/nwebsdale/she-codes-react-weather-app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open-source code
+          </a>
+          by Natasha Websdale
+        </p>
       </div>
     );
   } else {

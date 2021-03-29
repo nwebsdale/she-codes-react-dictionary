@@ -13,7 +13,6 @@ function App() {
         <main>
           <Dictionary defaultKeyword="Dictionary" />
         </main>
-        {/* <footer>Coded by me :)</footer> */}
       </div>
     </div>
   );
