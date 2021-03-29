@@ -2,6 +2,7 @@ import React from "react";
 import "./Result.css";
 import Meaning from "./Meaning.js";
 import Logo from "./logo.png";
+import Phonetic from "./Phonetic.js";
 
 export default function Result(props) {
   if (props.searchResult) {
@@ -9,7 +10,18 @@ export default function Result(props) {
       <div className="Result">
         <section className="word">
           <div className="row">
-            <h2>{props.searchResult.word}</h2>
+            <div className="col-4">
+              <h2>{props.searchResult.word}</h2>
+            </div>
+            <div className="col">
+              {props.searchResult.phonetics.map(function (phonetic, index) {
+                return (
+                  <div key={index}>
+                    <Phonetic phonetic={phonetic} />
+                  </div>
+                );
+              })}
+            </div>
           </div>
         </section>
 

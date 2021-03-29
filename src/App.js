@@ -6,7 +6,9 @@ function App() {
     <div className="App">
       <div className="container">
         <header className="header row">
-          <h1>The Online Dictionary</h1>
+          <h1>
+            <i className="fas fa-book main-icon"></i>The Online Dictionary
+          </h1>
         </header>
         <main>
           <Dictionary defaultKeyword="Dictionary" />

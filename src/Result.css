@@ -4,9 +4,11 @@
   margin: 0 auto;
 }
 
-.Result .word {
-  color: red;
+.Result .word h2 {
+  color: #0a58ca;
+  font-weight: 600;
   text-transform: capitalize;
+  margin: 10px;
 }
 
 .Result .temp-img {
