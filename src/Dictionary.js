@@ -57,7 +57,7 @@ export default function Dictionary(props) {
         <Result searchResult={result} photos={photos} />
         <p className="link">
           <a
-            href="https://github.com/nwebsdale/she-codes-react-weather-app"
+            href="https://github.com/nwebsdale/she-codes-react-dictionary"
             target="_blank"
             rel="noreferrer"
           >
