@@ -28,10 +28,10 @@ export default function Result(props) {
 
         <div className="row result-info">
           <div className="col-8">
-            {props.searchResult.meanings.map(function (meaning, meaningIndex) {
+            {props.searchResult.meanings.map(function (meaning, index) {
               return (
                 <div>
-                  <section className="meaning" key={meaningIndex}>
+                  <section className="meaning" key={index}>
                     <Meaning meaning={meaning} />
                   </section>
                 </div>

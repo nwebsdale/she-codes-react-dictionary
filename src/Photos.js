@@ -12,7 +12,7 @@ export default function Photos(props) {
                 <img
                   className="temp-img"
                   src={photo.src.landscape}
-                  alt="Photo"
+                  alt="Meaning"
                   key={index}
                 />
               </a>
@@ -23,22 +23,5 @@ export default function Photos(props) {
     );
   } else {
     return null;
-  }
-
-  {
-    /* <div className="col-4">
-            <div className="row">
-              <img className="temp-img" src={Logo} alt="Logo" />
-            </div>
-            <div className="row">
-              <img className="temp-img" src={Logo} alt="Logo" />
-            </div>
-            <div className="row">
-              <img className="temp-img" src={Logo} alt="Logo" />
-            </div>
-            <div className="row">
-              <img className="temp-img" src={Logo} alt="Logo" />
-            </div>
-          </div> */
   }
 }
