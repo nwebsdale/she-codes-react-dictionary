@@ -4,13 +4,13 @@
   margin: 0 auto;
 }
 
+.Result .result-info {
+  max-width: 600px;
+}
+
 .Result .word h2 {
   color: #0a58ca;
   font-weight: 600;
   text-transform: capitalize;
   margin: 10px;
 }
-
-/* .Result .temp-img {
-  max-width: 200px;
-} */

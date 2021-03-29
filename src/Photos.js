@@ -10,7 +10,7 @@ export default function Photos(props) {
             <div className="row">
               <a href={photo.src.original} target="_blank" rel="noreferrer">
                 <img
-                  className="temp-img"
+                  className="temp-img img-fluid"
                   src={photo.src.landscape}
                   alt="Meaning"
                   key={index}
